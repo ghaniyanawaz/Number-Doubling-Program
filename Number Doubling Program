@@ -1,0 +1,71 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNbgj1+OFnReacROgz6Io52",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ghaniyanawaz/Number-Doubling-Program/blob/main/Number%20Doubling%20Program\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 27,
+      "metadata": {
+        "id": "5p7sl_rKt6Td",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "cda22f47-7e91-4144-da0c-dbbf65b7afd1"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ek number likhein: 40\n",
+            "80\n"
+          ]
+        }
+      ],
+      "source": [
+        "def main()\n",
+        "    curr_value = int(input(\"Type a number\"))\n",
+        "\n",
+        "    while curr_value < 50:\n",
+        "        curr_value = curr_value * 2\n",
+        "        print(curr_value)\n",
+        "\n",
+        "if __name__ == '__main__':\n",
+        "    main()\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "WX59wqW3wnyT"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
